@@ -344,10 +344,10 @@ namespace MockStockServer
                             Stream output = context.Response.OutputStream;
                             output.Write(result, 0, result.Length);
                             output.Close();
-                            for (int i = 1; i <= 5; i++)
+                            for (int i = 1; i <= 120; i++)
                             {
                                 Thread.Sleep(1000);
-                                Console.WriteLine("Processing transaction: " + i);
+                                Console.WriteLine($"Processing transaction: {incomingStockTransaction.stockID}" + i);
                             }
                             TryBuyStock(incomingStockTransaction);
                         }
@@ -362,10 +362,10 @@ namespace MockStockServer
                             Stream output = context.Response.OutputStream;
                             output.Write(result, 0, result.Length);
                             output.Close();
-                            for (int i = 1; i <= 5; i++)
+                            for (int i = 1; i <= 120; i++)
                             {
                                 Thread.Sleep(1000);
-                                Console.WriteLine("Processing transaction: " + i);
+                                Console.WriteLine($"Processing transaction: {incomingStockTransaction.stockID}" + i);
                             }
                             TrySellStock(incomingStockTransaction);
                         }
