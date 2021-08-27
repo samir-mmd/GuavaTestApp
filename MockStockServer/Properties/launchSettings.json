@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MocpStockServer": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

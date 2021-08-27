@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GuavaStartUnitTest": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

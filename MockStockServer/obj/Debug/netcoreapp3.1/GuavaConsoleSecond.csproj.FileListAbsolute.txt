@@ -1,0 +1,17 @@
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\bin\Debug\netcoreapp3.1\GuavaConsoleSecond.exe
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\bin\Debug\netcoreapp3.1\GuavaConsoleSecond.deps.json
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\bin\Debug\netcoreapp3.1\GuavaConsoleSecond.runtimeconfig.json
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\bin\Debug\netcoreapp3.1\GuavaConsoleSecond.runtimeconfig.dev.json
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\bin\Debug\netcoreapp3.1\GuavaConsoleSecond.dll
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\bin\Debug\netcoreapp3.1\GuavaConsoleSecond.pdb
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\obj\Debug\netcoreapp3.1\GuavaConsoleSecond.AssemblyInfoInputs.cache
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\obj\Debug\netcoreapp3.1\GuavaConsoleSecond.AssemblyInfo.cs
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\obj\Debug\netcoreapp3.1\GuavaConsoleSecond.csproj.CoreCompileInputs.cache
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\obj\Debug\netcoreapp3.1\GuavaConsoleSecond.csproj.CopyComplete
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\obj\Debug\netcoreapp3.1\GuavaConsoleSecond.dll
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\obj\Debug\netcoreapp3.1\GuavaConsoleSecond.pdb
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\obj\Debug\netcoreapp3.1\GuavaConsoleSecond.genruntimeconfig.cache
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaConsoleSecond\obj\Debug\netcoreapp3.1\GuavaConsoleSecond.csprojAssemblyReference.cache

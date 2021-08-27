@@ -1,0 +1,62 @@
+version: '3.4'
+
+services:
+  rabbitmq: # login guest:guest
+    image: rabbitmq:3-management
+    hostname: "rabbitmq"
+    labels:
+      NAME: "rabbitmq"
+    ports:    
+    - "5672:5672"
+    - "15672:15672"
+
+
+  guavastart:
+    depends_on:     
+      - "rabbitmq"      
+    image: guavastart:dev
+    build:
+      context: ./GuavaStart
+      dockerfile: Dockerfile
+    restart: always
+    ports: 
+    - "80:80"  
+
+  guavaconsolefirst:
+    image: guavaconsolefirst:dev
+    depends_on:      
+      - "rabbitmq"
+    build:
+      context: ./GuavaConsoleFirst
+      dockerfile: Dockerfile
+    restart: always
+
+  mockstockserver:
+    image: mockstockserver:dev
+    depends_on:     
+      - "rabbitmq"
+    build:
+      context: ./MockStockServer
+      dockerfile: Dockerfile
+    restart: always
+    ports: 
+    - "1783:1783"  
+
+  guavastockservice:
+    image: guavastockservice:dev
+    depends_on:     
+      - "rabbitmq"
+    build:
+      context: ./GuavaStockService
+      dockerfile: Dockerfile
+    restart: always
+    ports: 
+    - "1782:1782" 
+
+ 
+
+
+   
+
+ 
+  

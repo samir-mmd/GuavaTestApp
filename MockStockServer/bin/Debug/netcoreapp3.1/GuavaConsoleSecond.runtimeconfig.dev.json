@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Mugamat\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Mugamat\\.nuget\\packages"
+    ]
+  }
+}

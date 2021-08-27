@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GuavaConsoleFirst": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
