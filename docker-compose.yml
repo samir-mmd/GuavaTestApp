@@ -22,12 +22,12 @@ services:
     ports: 
     - "80:80"  
 
-  guavaconsolefirst:
-    image: guavaconsolefirst:dev
+  guavauserengine:
+    image: guavauserengine:dev
     depends_on:      
       - "rabbitmq"
     build:
-      context: ./GuavaConsoleFirst
+      context: ./GuavaUserEngine
       dockerfile: Dockerfile
     restart: always
 

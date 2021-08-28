@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "GuavaConsoleFirst": {
+    "GuavaUserEngine": {
       "commandName": "Project"
     },
     "Docker": {

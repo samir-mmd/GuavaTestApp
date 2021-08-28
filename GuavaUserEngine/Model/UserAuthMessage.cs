@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GuavaConsoleFirst.Model
+namespace GuavaUserEngine.Model
 {
     public class UserAuthMessage
     {

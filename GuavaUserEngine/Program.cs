@@ -6,13 +6,13 @@ using System.Text;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using Newtonsoft.Json;
-using GuavaConsoleFirst.Services;
-using GuavaConsoleFirst.Model;
+using GuavaUserEngine.Services;
+using GuavaUserEngine.Model;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
 
-namespace GuavaConsoleFirst
+namespace GuavaUserEngine
 {
     public class Program
     {

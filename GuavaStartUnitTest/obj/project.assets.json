@@ -1344,25 +1344,6 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "GuavaConsoleFirst/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.9",
-          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.9",
-          "Microsoft.Extensions.Hosting.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
-          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
-          "Newtonsoft.Json": "13.0.1",
-          "RabbitMQ.Client": "6.2.2"
-        },
-        "compile": {
-          "bin/placeholder/GuavaConsoleFirst.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GuavaConsoleFirst.dll": {}
-        }
-      },
       "GuavaStart/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1402,6 +1383,25 @@
         },
         "runtime": {
           "bin/placeholder/GuavaStockService.dll": {}
+        }
+      },
+      "GuavaUserEngine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.9",
+          "Microsoft.Extensions.Hosting.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
+          "Newtonsoft.Json": "13.0.1",
+          "RabbitMQ.Client": "6.2.2"
+        },
+        "compile": {
+          "bin/placeholder/GuavaUserEngine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GuavaUserEngine.dll": {}
         }
       },
       "MockStockServer/1.0.0": {
@@ -3471,11 +3471,6 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "GuavaConsoleFirst/1.0.0": {
-      "type": "project",
-      "path": "../GuavaConsoleFirst/GuavaConsoleFirst.csproj",
-      "msbuildProject": "../GuavaConsoleFirst/GuavaConsoleFirst.csproj"
-    },
     "GuavaStart/1.0.0": {
       "type": "project",
       "path": "../GuavaStart/GuavaStart.csproj",
@@ -3486,6 +3481,11 @@
       "path": "../GuavaStockService/GuavaStockService.csproj",
       "msbuildProject": "../GuavaStockService/GuavaStockService.csproj"
     },
+    "GuavaUserEngine/1.0.0": {
+      "type": "project",
+      "path": "../GuavaUserEngine/GuavaUserEngine.csproj",
+      "msbuildProject": "../GuavaUserEngine/GuavaUserEngine.csproj"
+    },
     "MockStockServer/1.0.0": {
       "type": "project",
       "path": "../MockStockServer/MockStockServer.csproj",
@@ -3494,9 +3494,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "GuavaConsoleFirst >= 1.0.0",
       "GuavaStart >= 1.0.0",
       "GuavaStockService >= 1.0.0",
+      "GuavaUserEngine >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
       "MockStockServer >= 1.0.0",
@@ -3531,14 +3531,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaConsoleFirst\\GuavaConsoleFirst.csproj": {
-              "projectPath": "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaConsoleFirst\\GuavaConsoleFirst.csproj"
-            },
             "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaStart\\GuavaStart.csproj": {
               "projectPath": "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaStart\\GuavaStart.csproj"
             },
             "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaStockService\\GuavaStockService.csproj": {
               "projectPath": "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaStockService\\GuavaStockService.csproj"
+            },
+            "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaUserEngine\\GuavaUserEngine.csproj": {
+              "projectPath": "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaUserEngine\\GuavaUserEngine.csproj"
             },
             "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\MockStockServer\\MockStockServer.csproj": {
               "projectPath": "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\MockStockServer\\MockStockServer.csproj"

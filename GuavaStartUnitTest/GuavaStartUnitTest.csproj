@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GuavaConsoleFirst\GuavaConsoleFirst.csproj" />
+    <ProjectReference Include="..\GuavaUserEngine\GuavaUserEngine.csproj" />
     <ProjectReference Include="..\GuavaStart\GuavaStart.csproj" />
     <ProjectReference Include="..\GuavaStockService\GuavaStockService.csproj" />
     <ProjectReference Include="..\MockStockServer\MockStockServer.csproj" />

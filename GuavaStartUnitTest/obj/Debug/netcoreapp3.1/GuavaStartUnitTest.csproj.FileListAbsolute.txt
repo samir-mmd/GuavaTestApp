@@ -125,7 +125,6 @@ C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\obj\Debug\netcoreapp3.1\Gu
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\obj\Debug\netcoreapp3.1\GuavaStartUnitTest.pdb
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\obj\Debug\netcoreapp3.1\GuavaStartUnitTest.genruntimeconfig.cache
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\obj\Debug\netcoreapp3.1\GuavaStartUnitTest.csproj.CoreCompileInputs.cache
-C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\GuavaConsoleFirst.exe
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -161,11 +160,12 @@ C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\ru
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\GuavaConsoleFirst.dll
-C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\GuavaConsoleFirst.pdb
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\GuavaStockService.exe
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\MockStockServer.exe
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\GuavaStockService.dll
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\MockStockServer.dll
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\GuavaStockService.pdb
 C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\MockStockServer.pdb
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\GuavaUserEngine.exe
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\GuavaUserEngine.dll
+C:\Users\Mugamat\Desktop\GuavaMain\GuavaStartUnitTest\bin\Debug\netcoreapp3.1\GuavaUserEngine.pdb

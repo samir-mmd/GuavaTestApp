@@ -1433,11 +1433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaConsoleFirst\\GuavaConsoleFirst.csproj",
-      "projectName": "GuavaConsoleFirst",
-      "projectPath": "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaConsoleFirst\\GuavaConsoleFirst.csproj",
+      "projectUniqueName": "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaUserEngine\\GuavaUserEngine.csproj",
+      "projectName": "GuavaUserEngine",
+      "projectPath": "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaUserEngine\\GuavaUserEngine.csproj",
       "packagesPath": "C:\\Users\\Mugamat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaConsoleFirst\\obj\\",
+      "outputPath": "C:\\Users\\Mugamat\\Desktop\\GuavaMain\\GuavaUserEngine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mugamat\\AppData\\Roaming\\NuGet\\NuGet.Config",

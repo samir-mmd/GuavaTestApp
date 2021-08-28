@@ -8,9 +8,9 @@
     ".NETCoreApp,Version=v3.1": {
       "GuavaStartUnitTest/1.0.0": {
         "dependencies": {
-          "GuavaConsoleFirst": "1.0.0",
           "GuavaStart": "1.0.0",
           "GuavaStockService": "1.0.0",
+          "GuavaUserEngine": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
           "MockStockServer": "1.0.0",
@@ -1069,20 +1069,6 @@
           "Microsoft.NET.Test.Sdk": "16.5.0"
         }
       },
-      "GuavaConsoleFirst/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.9",
-          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.9",
-          "Microsoft.Extensions.Hosting.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
-          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
-          "Newtonsoft.Json": "13.0.1",
-          "RabbitMQ.Client": "6.2.2"
-        },
-        "runtime": {
-          "GuavaConsoleFirst.dll": {}
-        }
-      },
       "GuavaStart/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.18",
@@ -1109,6 +1095,20 @@
         },
         "runtime": {
           "GuavaStockService.dll": {}
+        }
+      },
+      "GuavaUserEngine/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.9",
+          "Microsoft.Extensions.Hosting.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
+          "Newtonsoft.Json": "13.0.1",
+          "RabbitMQ.Client": "6.2.2"
+        },
+        "runtime": {
+          "GuavaUserEngine.dll": {}
         }
       },
       "MockStockServer/1.0.0": {
@@ -1759,17 +1759,17 @@
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
     },
-    "GuavaConsoleFirst/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "GuavaStart/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "GuavaStockService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GuavaUserEngine/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -38,16 +38,16 @@ namespace GuavaStartUnitTest
         public void RegisterUser()
         {
             //Arrange
-            GuavaConsoleFirst.Model.GuavaUser guavaUser = new GuavaConsoleFirst.Model.GuavaUser();
-            GuavaConsoleFirst.Model.UserAuthMessage userAuthMessage = new GuavaConsoleFirst.Model.UserAuthMessage();
+            GuavaUserEngine.Model.GuavaUser guavaUser = new GuavaUserEngine.Model.GuavaUser();
+            GuavaUserEngine.Model.UserAuthMessage userAuthMessage = new GuavaUserEngine.Model.UserAuthMessage();
             guavaUser.userName = "UniqueTestUserName" + Guid.NewGuid().ToString();
             guavaUser.Password = "TestPassword";
             userAuthMessage.guavaUser = guavaUser;
 
             // Act
-            GuavaConsoleFirst.Program.RegisterUser(userAuthMessage);
+            GuavaUserEngine.Program.RegisterUser(userAuthMessage);
             var successResult = userAuthMessage.result;
-            GuavaConsoleFirst.Program.RegisterUser(userAuthMessage);
+            GuavaUserEngine.Program.RegisterUser(userAuthMessage);
             var errorResult = userAuthMessage.result;
 
             // Assert
@@ -60,22 +60,22 @@ namespace GuavaStartUnitTest
         public void AutorizeUser()
         {
             //Arrange
-            GuavaConsoleFirst.Model.GuavaUser guavaUser = new GuavaConsoleFirst.Model.GuavaUser();
-            GuavaConsoleFirst.Model.UserAuthMessage userAuthMessage = new GuavaConsoleFirst.Model.UserAuthMessage();
+            GuavaUserEngine.Model.GuavaUser guavaUser = new GuavaUserEngine.Model.GuavaUser();
+            GuavaUserEngine.Model.UserAuthMessage userAuthMessage = new GuavaUserEngine.Model.UserAuthMessage();
             guavaUser.userName = "UniqueTestUserName" + Guid.NewGuid().ToString();
             guavaUser.Password = "TestPassword";
             userAuthMessage.guavaUser = guavaUser;
 
             // Act
-            GuavaConsoleFirst.Program.AutorizeUser(userAuthMessage);
+            GuavaUserEngine.Program.AutorizeUser(userAuthMessage);
             var userNotFoundResult = userAuthMessage.result;
 
-            GuavaConsoleFirst.Program.RegisterUser(userAuthMessage);
-            GuavaConsoleFirst.Program.AutorizeUser(userAuthMessage);
+            GuavaUserEngine.Program.RegisterUser(userAuthMessage);
+            GuavaUserEngine.Program.AutorizeUser(userAuthMessage);
             var successResult = userAuthMessage.result;
 
             userAuthMessage.guavaUser.Password = "WrongPassword";
-            GuavaConsoleFirst.Program.AutorizeUser(userAuthMessage);
+            GuavaUserEngine.Program.AutorizeUser(userAuthMessage);
             var wrongPasswordResult = userAuthMessage.result;
 
             // Assert

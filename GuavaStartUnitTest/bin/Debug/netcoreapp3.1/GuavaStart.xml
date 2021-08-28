@@ -4,10 +4,76 @@
         <name>GuavaStart</name>
     </assembly>
     <members>
+        <member name="M:GuavaStart.Controllers.GuavaNotificationController.Get">
+            <summary>
+            Web Socket connection point. Marks connected and autorized user to recieve notifications from stockservice
+            </summary>
+        </member>
+        <member name="M:GuavaStart.Controllers.GuavaNotificationController.GetWsUserID">
+            <summary>
+            Using by stockservice
+            </summary>
+        </member>
+        <member name="M:GuavaStart.Controllers.GuavaStockController.GetUserStocks">
+            <summary>
+            Get autorized user`s holded stosks with calculated profit
+            </summary>
+            <response code="200">Stocks json</response>        
+            <response code="404">Service unavailable</response>
+        </member>
+        <member name="M:GuavaStart.Controllers.GuavaStockController.GetUSDStocks">
+            <summary>
+            Get USD Market stosks with rates history for 60 days
+            </summary>
+            <response code="200">Stocks json</response>        
+            <response code="404">Service unavailable</response>
+        </member>
+        <member name="M:GuavaStart.Controllers.GuavaStockController.GetAEDStocks">
+            <summary>
+            Get AED Market stosks with rates history for 60 days
+            </summary>
+            <response code="200">Stocks json</response>        
+            <response code="404">Service unavailable</response>
+        </member>
+        <member name="M:GuavaStart.Controllers.GuavaStockController.GetEURStocks">
+            <summary>
+            Get EUR Market stosks with rates history for 60 days
+            </summary>
+            <response code="200">Stocks json</response>        
+            <response code="404">Service unavailable</response>
+        </member>
+        <member name="M:GuavaStart.Controllers.GuavaStockController.GetPrefStocks">
+            <summary>
+            Get autorized user's preferential stocks list
+            </summary>
+            <response code="200">Stocks json</response>        
+            <response code="404">Service unavailable</response>
+        </member>
+        <member name="M:GuavaStart.Controllers.GuavaStockController.BuyStock(System.String,System.Decimal)">
+            <summary>
+            Begins buying transaction for autorized user for deticated price
+            </summary>
+        </member>
+        <member name="M:GuavaStart.Controllers.GuavaStockController.SellStock(System.Int32,System.Decimal)">
+            <summary>
+            Begins selling transaction for autorized user for deticated price
+            </summary>
+        </member>
+        <member name="M:GuavaStart.Controllers.GuavaUserController.Token(System.String,System.String)">
+            <summary>
+            Sends autorizations data to UserEngine and returns a token
+            </summary>
+            <response code="200">Returns a new token and a username</response>
+            <response code="400">Username or password is wrong</response>
+            <response code="204">Message Service unavailable</response>
+        </member>
         <member name="M:GuavaStart.Controllers.GuavaUserController.Register(System.String,System.String)">
             <summary>
-            Sends Reg. info to UserEngine
+            Sends Reg. info to UserEngine.
             </summary>
+            <response code="200">Returns the newly created user with no token</response>
+            <response code="400">User already exists</response>
+            <response code="204">Message Service unavailable</response>
         </member>
     </members>
 </doc>

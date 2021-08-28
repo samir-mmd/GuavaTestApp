@@ -6,18 +6,16 @@ WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["GuavaConsoleFirst.csproj", ""]
-RUN dotnet restore "./GuavaConsoleFirst.csproj"
+COPY ["GuavaUserEngine.csproj", ""]
+RUN dotnet restore "./GuavaUserEngine.csproj"
 COPY . .
 WORKDIR "/src/."
-RUN dotnet build "GuavaConsoleFirst.csproj" -c Release -o /app/build
-RUN chmod +x ./entrypoint.sh
-CMD /bin/bash ./entrypoint.sh
+RUN dotnet build "GuavaUserEngine.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "GuavaConsoleFirst.csproj" -c Release -o /app/publish
+RUN dotnet publish "GuavaUserEngine.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "GuavaConsoleFirst.dll"]
+ENTRYPOINT ["dotnet", "GuavaUserEngine.dll"]
